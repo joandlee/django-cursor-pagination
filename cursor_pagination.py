@@ -2,7 +2,7 @@ from base64 import b64decode, b64encode
 from collections import Sequence
 
 from django.db.models import Field, Func, Value, TextField
-from django.utils import six
+import six
 from django.utils.translation import ugettext_lazy as _
 
 
